@@ -1,0 +1,16 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon -L app/app.js"
+  },
+  "dependencies": {
+    "socket.io": ">= 1.4.5",
+    "express" : ">= 4.8.7",
+    "body-parser": ">= 1.0.1",
+    "nodemailer": ">= 2.6.0",
+    "mongodb": ">= 2.2.10",
+    "promise": ">= 7.1.0"
+  }
+}
